@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+  }
+.container {
+    display: flex;
+    height: 50rem;
+    background-color: aqua;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    flex-direction: column;
+    /* justify-content:center; */
+    /* align-items: flex-end; */
+}
+.car {
+    background-color: chartreuse;
+    order: 1;
+}
+.BMW{
+    background-color: blueviolet;
+    order: 0;
+}
+.Benz {
+    background-color: chocolate;
+    order:1;
+}
+.MWM {
+    background-color: darkgoldenrod;
+    order:2;
+}
+.X6 {
+    background-color: slateblue;
+    order: 1;
+}
+.set {
+    font-size: 3rem;
+    padding: 2rem;
+    width: 15%;
+}

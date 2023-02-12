@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    /* scroll-behavior: smooth; */
+  }
+.container {
+    display: flex;
+    height: 30rem;
+    background-color: aqua;
+    flex-wrap: wrap;
+    align-content:flex-start;
+}
+.car {
+    background-color: chartreuse
+}
+.BMW{
+    background-color: blueviolet;
+}
+.Benz {
+    background-color: chocolate;
+}
+.MWM {
+    background-color: darkgoldenrod;
+}
+.X6 {
+    background-color: slateblue;
+}
+.set {
+    font-size: 3rem;
+    padding: 2rem;
+    width: 20%;
+}

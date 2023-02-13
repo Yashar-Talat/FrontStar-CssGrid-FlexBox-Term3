@@ -1,0 +1,42 @@
+.flex-container {
+  background-color: aqua;
+  width: 900px;
+  height: 400px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.gray {
+  background-color: gray;
+}
+.green {
+  background-color: greenyellow;
+}
+
+.item1 {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+.item2 {
+  width: 100px;
+  height: 100px;
+  align-self: flex-end;
+}
+.item3 {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+.item4 {
+  width: 100px;
+  height: 100px;
+  align-self: flex-end;
+}

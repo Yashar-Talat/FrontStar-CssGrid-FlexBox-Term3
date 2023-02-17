@@ -1,0 +1,24 @@
+.grid-container {
+  display: grid;
+  background-color: yellow;
+  color: white;
+  width: 100%;
+  grid-template-columns: repeat(4, auto);
+}
+.grid-item {
+  background-color: yellowgreen;
+  border: 1px solid black;
+  padding: 25px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.first-item {
+    grid-area: 1 / 2 / 5 / 6;
+}
+.ten {
+    grid-area: 5 / 2 / 7 / 4;
+}
+.three {
+    grid-area: 3 / 1 / 7 / 2;
+}

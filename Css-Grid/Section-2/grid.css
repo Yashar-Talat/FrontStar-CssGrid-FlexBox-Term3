@@ -17,7 +17,11 @@
     font-size: 25px;
     text-align: center;
 }
-.first-item {
+/* .first-item {
    grid-column-start: 1;
    grid-column-end: 5; 
-}
+} */
+.first-item {
+    grid-row-start: 1;
+    grid-row-end: 3; 
+ }
